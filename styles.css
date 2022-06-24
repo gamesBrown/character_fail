@@ -1,0 +1,99 @@
+
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: moccasin;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.icon{
+    width: 20%;
+    background-color: blueviolet;
+    margin-left: 10px;
+}
+.navbar{
+    background-color:gray;
+    height: 100%;
+    width: 90%;
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    
+    
+}
+.row{
+
+    flex-direction: column;
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    
+    height: 65%;
+}
+
+
+.nav-links{
+    display: flex;
+    flex:1;
+    height: 80%;
+    align-self: flex-start;
+    
+    
+}
+
+.nav-links li{
+    background-color: beige;
+    flex:1;
+    margin: 10px;
+    height: 50%;
+    list-style-type: none;
+}
+
+.profile{
+    width: 40%;
+    height:80%;
+    background-color: brown;
+    margin-left: 10px;
+    flex:2;
+    
+    
+
+}
+.stats{
+    flex:1;
+    width: 40%;
+    margin-left: 10px;
+    background-color: coral;
+    margin-bottom: 10px;
+
+}
+/* .skills{
+    
+    height: 65%;
+    background-color: aquamarine;
+    display: flex;
+    
+    
+    
+
+}
+.skill{
+    background-color: crimson;
+    width: 80%;
+    height: 80%;
+    margin-left:5px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.skill li{
+    flex:1;
+    margin: 10px;
+
+} */
